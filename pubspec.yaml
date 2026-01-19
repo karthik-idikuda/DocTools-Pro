@@ -1,0 +1,60 @@
+name: doctools_pro
+description: "A free offline-first PDF and DOCX document utility app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Architecture & State Management
+  provider: ^6.1.1
+  equatable: ^2.0.5
+  get_it: ^7.6.7
+  dartz: ^0.10.1 # For Either<Failure, Success>
+
+  # Local Storage & Database
+  path_provider: ^2.1.2
+  sqflite: ^2.3.2
+  path: ^1.9.0
+  shared_preferences: ^2.2.2
+
+  # File Handling
+  file_picker: ^8.0.0
+  share_plus: ^10.0.0
+  uuid: ^4.3.3
+  intl: ^0.19.0
+
+  # PDF Tools
+  pdfx: ^2.6.0
+  syncfusion_flutter_pdf: ^24.1.41 # Check for latest version compatibility
+
+  # Camera & Scanning
+  camera: ^0.11.0
+  image_cropper: ^8.0.0
+  google_mlkit_text_recognition: ^0.11.0
+
+  # Auth (Optional)
+  firebase_core: ^3.1.0
+  firebase_auth: ^5.1.0
+  google_sign_in: ^6.2.1
+
+  # Ads
+  google_mobile_ads: ^5.0.0
+
+  # UI (Optional utility)
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.8    # In case we need codegen later
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true

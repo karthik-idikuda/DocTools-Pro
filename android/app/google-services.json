@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854697967962",
+    "project_id": "xerironx-studio",
+    "storage_bucket": "xerironx-studio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854697967962:android:b887eebb747e7966853363",
+        "android_client_info": {
+          "package_name": "com.doctools.pro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854697967962-gg6u935sm31jbeafdvj5hsvv00jl9vlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKBfOZXUOlr3TPLegydmwiE_M0pyd6udM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854697967962-gg6u935sm31jbeafdvj5hsvv00jl9vlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
